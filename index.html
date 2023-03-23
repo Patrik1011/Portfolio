@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="/css/navigation-style.css">
   <link rel="stylesheet" href="/css/introduction-style.css">
   <link rel="stylesheet" href="/css/about-style.css">
+  <link rel="stylesheet" href="/css/contact-style.css">
+  <link rel="stylesheet" href="/css/footer-style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>Patrik Hoferica</title>
 </head>
@@ -19,7 +21,7 @@
     <i class='bx bx-menu' id="resolution-menu"></i>
     <nav class="navigation">
       <a href="index.html" class="active">Home</a>
-      <a href="about.html">About</a>
+      <a href="about">About</a>
       <a href="contact.html">Projects</a>
       <a href="contact.html">Contact</a>      
     </nav>
@@ -48,7 +50,7 @@
   </section>
 
   <!--About Section-->
-  <section class="about-container">
+  <section class="about-container" id="about">
     <div class="about-image">
       <img src="/images/developer.png" alt="about">
     </div>
@@ -90,6 +92,34 @@
       <a href="" class="button-read-more">Read More</a>
     </div>
   </section>
+
+  <!-- Contact Section -->
+  <section class="contact-container">
+    <h2 class="main-text">Contact Me!</h2>
+
+    <form action="" method="post">
+      <div class="contact-input">
+        <input type="text" placeholder="Enter a name">
+      </div>
+      <div class="contact-input">
+        <input type="email" placeholder="Enter an email">
+      </div>
+      <div class="contact-input">
+        <input type="text" placeholder="Enter a subject">
+      </div>
+      <div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Enter a message"></textarea>
+      </div>
+      <input type="button" class="form-button" value="Send a Message">
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer-container">
+    <div class="footer-text">
+     <p>Copyrigth &copy; Patrik Hoferica 2023</p>
+    </div>
+  </footer>
 
  
   <!--JS connection-->
