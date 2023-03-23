@@ -6,6 +6,12 @@
   outline: none;
   scroll-behavior: smooth;
 }
+
+section{
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
   background: grey;
@@ -15,3 +21,8 @@ body{
 html{
  overflow-x: hidden;
 }
+
+span {
+  color: #f44336;
+}
+
