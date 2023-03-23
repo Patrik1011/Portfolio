@@ -9,7 +9,8 @@
 
 section{
   min-height: 100vh;
-  padding: 5rem 9% 2rem;
+  padding: 0rem 9% 0rem;
+  /*padding: 10rem 9% 2rem;*/
 }
 
 body{
